@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#01356E</color>
+    <color name="green">#01680F</color>
+    <color name="holo_blue">#04656E</color>
+    <color name="mint_green">#014851</color>
+    <color name="pink">#650260</color>
+    <color name="light_blue900">#01579B</color>
+    <color name="Deep_purple900">#311B92</color>
+    <color name="Red900">#B71C1C</color>
+    <color name="purple900">#4A148C</color>
+    <color name="Red50_900">#B71C1C</color>
+
+</resources>

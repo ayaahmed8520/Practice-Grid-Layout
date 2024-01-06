@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="6"
+    android:rowCount="3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:background="@color/light_blue900"
+        android:padding="8dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/img1"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView1"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_margin="8dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:background="@color/pink"
+        android:contentDescription="@string/img2"
+        android:padding="8dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/blue"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:contentDescription="@string/img3"/>
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:background="@color/green"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:contentDescription="@string/img4"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:background="@color/Red50_900"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@android:mipmap/sym_def_app_icon"
+            android:contentDescription="@string/img5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView2"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_margin="8dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/holo_blue"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:contentDescription="@string/img6"/>
+
+    <ImageView
+        android:id="@+id/img7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:background="@color/blue"
+        android:contentDescription="@string/img7"
+        android:padding="8dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:background="@color/Deep_purple900"
+        android:padding="8dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        android:contentDescription="@string/img8"/>
+
+    <ImageView
+        android:id="@+id/img9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:background="@color/Red900"
+        android:contentDescription="@string/img9"
+        android:padding="8dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <ImageView
+        android:id="@+id/img10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:background="@color/purple900"
+        android:contentDescription="@string/img10"
+        android:padding="8dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <ImageView
+        android:id="@+id/img11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:background="@color/mint_green"
+        android:padding="8dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        android:contentDescription="@string/img11"/>
+
+</GridLayout>
